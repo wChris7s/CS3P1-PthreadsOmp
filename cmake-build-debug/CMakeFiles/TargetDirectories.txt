@@ -1,0 +1,3 @@
+/home/cwsg/Ucsp/CS3P1-Pthreads/cmake-build-debug/CMakeFiles/CS3P1_Pthreads.dir
+/home/cwsg/Ucsp/CS3P1-Pthreads/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/cwsg/Ucsp/CS3P1-Pthreads/cmake-build-debug/CMakeFiles/rebuild_cache.dir
