@@ -1,15 +1,15 @@
 # ninja log v6
-2	76	1727833849130792104	CMakeFiles/CS3P1_Pthreads.dir/linked_list/pth_mutex.c.o	3576188a1db883ef
-2	115	1727833849130792104	CMakeFiles/CS3P1_Pthreads.dir/linked_list/pth_busy_waiting.c.o	2ad5f23f91e7be30
-1	38	1727638291725512914	CMakeFiles/CS3P1_Pthreads.dir/main.c.o	ae098ba93ea4f7da
-2	122	1727833849130792104	CMakeFiles/CS3P1_Pthreads.dir/introduction/pth_ll_mult_mut.c.o	8dd16f5bfb000e4d
-1	111	1727833849129792100	CMakeFiles/CS3P1_Pthreads.dir/linked_list/pth_hello_world.c.o	7d54f818111be19b
 2	77	1727833849130792104	CMakeFiles/CS3P1_Pthreads.dir/linked_list/pth_semaphore.c.o	1077e93b78ca444f
+1	111	1727833849129792100	CMakeFiles/CS3P1_Pthreads.dir/linked_list/pth_hello_world.c.o	7d54f818111be19b
+2	122	1727833849130792104	CMakeFiles/CS3P1_Pthreads.dir/introduction/pth_ll_mult_mut.c.o	8dd16f5bfb000e4d
 1	25	1727762554787912283	CMakeFiles/CS3P1_Pthreads.dir/pth_busy_waiting.c.o	ef41b4b63c0a579e
 2	115	1727833849130792104	CMakeFiles/CS3P1_Pthreads.dir/introduction/linked_list.c.o	5afe8a981557128e
 1	16	1727728916790232264	CMakeFiles/CS3P1_Pthreads.dir/pth_mutex.c.o	dfc3d9d22fe8bb18
-1	16	1727728916790232264	CMakeFiles/CS3P1_Pthreads.dir/pth_semaphore.c.o	332243d2cd1566f
 76	119	1727833849204792334	CMakeFiles/CS3P1_Pthreads.dir/introduction/pth_ll_one_mut.c.o	a8966d90e193f825
+1	16	1727728916790232264	CMakeFiles/CS3P1_Pthreads.dir/pth_semaphore.c.o	332243d2cd1566f
 77	119	1727833849205792337	CMakeFiles/CS3P1_Pthreads.dir/introduction/pth_ll_rwl.c.o	446c9d890af20fea
-1	46	1727728916790232264	CMakeFiles/CS3P1_Pthreads.dir/pth_hello_world.c.o	a30dffaa56494687
 39	56	1727638291763511722	CS3P1_Pthreads	a4830c689a57ba5
+1	46	1727728916790232264	CMakeFiles/CS3P1_Pthreads.dir/pth_hello_world.c.o	a30dffaa56494687
+2	76	1727833849130792104	CMakeFiles/CS3P1_Pthreads.dir/linked_list/pth_mutex.c.o	3576188a1db883ef
+2	115	1727833849130792104	CMakeFiles/CS3P1_Pthreads.dir/linked_list/pth_busy_waiting.c.o	2ad5f23f91e7be30
+1	38	1727638291725512914	CMakeFiles/CS3P1_Pthreads.dir/main.c.o	ae098ba93ea4f7da

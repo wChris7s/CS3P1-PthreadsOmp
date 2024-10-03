@@ -33,7 +33,7 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 24,
+				"line" : 20,
 				"parent" : 0
 			},
 			{
@@ -71,11 +71,11 @@
 			[
 				{
 					"backtrace" : 4,
-					"path" : "/home/cwsg/Ucsp/CS3P1-Pthreads/introduction/my_rand.h"
+					"path" : "/home/cwsg/Ucsp/CS3P1-Pthreads/linked_list/headers/my_rand.h"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/home/cwsg/Ucsp/CS3P1-Pthreads/introduction/timer.h"
+					"path" : "/home/cwsg/Ucsp/CS3P1-Pthreads/linked_list/headers/timer.h"
 				}
 			],
 			"language" : "C",
@@ -96,11 +96,7 @@
 				4,
 				5,
 				6,
-				7,
-				8,
-				9,
-				10,
-				11
+				7
 			]
 		}
 	],
@@ -145,11 +141,7 @@
 				4,
 				5,
 				6,
-				7,
-				8,
-				9,
-				10,
-				11
+				7
 			]
 		}
 	],
@@ -158,55 +150,31 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "linked_list/pth_hello_world.c",
+			"path" : "linked_list/linked_list.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "linked_list/pth_busy_waiting.c",
+			"path" : "linked_list/pth_ll_mult_mut.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "linked_list/pth_mutex.c",
+			"path" : "linked_list/pth_ll_one_mut.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "linked_list/pth_semaphore.c",
+			"path" : "linked_list/pth_ll_rwl.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "introduction/linked_list.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "introduction/pth_ll_mult_mut.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "introduction/pth_ll_one_mut.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "introduction/pth_ll_rwl.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "introduction/my_rand.c",
+			"path" : "linked_list/headers/my_rand.c",
 			"sourceGroupIndex" : 0
 		},
 		{

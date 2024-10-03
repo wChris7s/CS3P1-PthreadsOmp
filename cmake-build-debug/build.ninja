@@ -49,87 +49,59 @@ cmake_ninja_workdir = /home/cwsg/Ucsp/CS3P1-Pthreads/cmake-build-debug/
 
 build cmake_object_order_depends_target_CS3P1_Pthreads: phony || .
 
-build CMakeFiles/CS3P1_Pthreads.dir/linked_list/pth_hello_world.c.o: C_COMPILER__CS3P1_Pthreads_unscanned_Debug /home/cwsg/Ucsp/CS3P1-Pthreads/linked_list/pth_hello_world.c || cmake_object_order_depends_target_CS3P1_Pthreads
-  DEP_FILE = CMakeFiles/CS3P1_Pthreads.dir/linked_list/pth_hello_world.c.o.d
+build CMakeFiles/CS3P1_Pthreads.dir/linked_list/linked_list.c.o: C_COMPILER__CS3P1_Pthreads_unscanned_Debug /home/cwsg/Ucsp/CS3P1-Pthreads/linked_list/linked_list.c || cmake_object_order_depends_target_CS3P1_Pthreads
+  DEP_FILE = CMakeFiles/CS3P1_Pthreads.dir/linked_list/linked_list.c.o.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always -g -Wall
-  INCLUDES = -I/home/cwsg/Ucsp/CS3P1-Pthreads/introduction/my_rand.h -I/home/cwsg/Ucsp/CS3P1-Pthreads/introduction/timer.h
+  INCLUDES = -I/home/cwsg/Ucsp/CS3P1-Pthreads/linked_list/headers/my_rand.h -I/home/cwsg/Ucsp/CS3P1-Pthreads/linked_list/headers/timer.h
   OBJECT_DIR = CMakeFiles/CS3P1_Pthreads.dir
   OBJECT_FILE_DIR = CMakeFiles/CS3P1_Pthreads.dir/linked_list
 
-build CMakeFiles/CS3P1_Pthreads.dir/linked_list/pth_busy_waiting.c.o: C_COMPILER__CS3P1_Pthreads_unscanned_Debug /home/cwsg/Ucsp/CS3P1-Pthreads/linked_list/pth_busy_waiting.c || cmake_object_order_depends_target_CS3P1_Pthreads
-  DEP_FILE = CMakeFiles/CS3P1_Pthreads.dir/linked_list/pth_busy_waiting.c.o.d
+build CMakeFiles/CS3P1_Pthreads.dir/linked_list/pth_ll_mult_mut.c.o: C_COMPILER__CS3P1_Pthreads_unscanned_Debug /home/cwsg/Ucsp/CS3P1-Pthreads/linked_list/pth_ll_mult_mut.c || cmake_object_order_depends_target_CS3P1_Pthreads
+  DEP_FILE = CMakeFiles/CS3P1_Pthreads.dir/linked_list/pth_ll_mult_mut.c.o.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always -g -Wall
-  INCLUDES = -I/home/cwsg/Ucsp/CS3P1-Pthreads/introduction/my_rand.h -I/home/cwsg/Ucsp/CS3P1-Pthreads/introduction/timer.h
+  INCLUDES = -I/home/cwsg/Ucsp/CS3P1-Pthreads/linked_list/headers/my_rand.h -I/home/cwsg/Ucsp/CS3P1-Pthreads/linked_list/headers/timer.h
   OBJECT_DIR = CMakeFiles/CS3P1_Pthreads.dir
   OBJECT_FILE_DIR = CMakeFiles/CS3P1_Pthreads.dir/linked_list
 
-build CMakeFiles/CS3P1_Pthreads.dir/linked_list/pth_mutex.c.o: C_COMPILER__CS3P1_Pthreads_unscanned_Debug /home/cwsg/Ucsp/CS3P1-Pthreads/linked_list/pth_mutex.c || cmake_object_order_depends_target_CS3P1_Pthreads
-  DEP_FILE = CMakeFiles/CS3P1_Pthreads.dir/linked_list/pth_mutex.c.o.d
+build CMakeFiles/CS3P1_Pthreads.dir/linked_list/pth_ll_one_mut.c.o: C_COMPILER__CS3P1_Pthreads_unscanned_Debug /home/cwsg/Ucsp/CS3P1-Pthreads/linked_list/pth_ll_one_mut.c || cmake_object_order_depends_target_CS3P1_Pthreads
+  DEP_FILE = CMakeFiles/CS3P1_Pthreads.dir/linked_list/pth_ll_one_mut.c.o.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always -g -Wall
-  INCLUDES = -I/home/cwsg/Ucsp/CS3P1-Pthreads/introduction/my_rand.h -I/home/cwsg/Ucsp/CS3P1-Pthreads/introduction/timer.h
+  INCLUDES = -I/home/cwsg/Ucsp/CS3P1-Pthreads/linked_list/headers/my_rand.h -I/home/cwsg/Ucsp/CS3P1-Pthreads/linked_list/headers/timer.h
   OBJECT_DIR = CMakeFiles/CS3P1_Pthreads.dir
   OBJECT_FILE_DIR = CMakeFiles/CS3P1_Pthreads.dir/linked_list
 
-build CMakeFiles/CS3P1_Pthreads.dir/linked_list/pth_semaphore.c.o: C_COMPILER__CS3P1_Pthreads_unscanned_Debug /home/cwsg/Ucsp/CS3P1-Pthreads/linked_list/pth_semaphore.c || cmake_object_order_depends_target_CS3P1_Pthreads
-  DEP_FILE = CMakeFiles/CS3P1_Pthreads.dir/linked_list/pth_semaphore.c.o.d
+build CMakeFiles/CS3P1_Pthreads.dir/linked_list/pth_ll_rwl.c.o: C_COMPILER__CS3P1_Pthreads_unscanned_Debug /home/cwsg/Ucsp/CS3P1-Pthreads/linked_list/pth_ll_rwl.c || cmake_object_order_depends_target_CS3P1_Pthreads
+  DEP_FILE = CMakeFiles/CS3P1_Pthreads.dir/linked_list/pth_ll_rwl.c.o.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always -g -Wall
-  INCLUDES = -I/home/cwsg/Ucsp/CS3P1-Pthreads/introduction/my_rand.h -I/home/cwsg/Ucsp/CS3P1-Pthreads/introduction/timer.h
+  INCLUDES = -I/home/cwsg/Ucsp/CS3P1-Pthreads/linked_list/headers/my_rand.h -I/home/cwsg/Ucsp/CS3P1-Pthreads/linked_list/headers/timer.h
   OBJECT_DIR = CMakeFiles/CS3P1_Pthreads.dir
   OBJECT_FILE_DIR = CMakeFiles/CS3P1_Pthreads.dir/linked_list
 
-build CMakeFiles/CS3P1_Pthreads.dir/introduction/linked_list.c.o: C_COMPILER__CS3P1_Pthreads_unscanned_Debug /home/cwsg/Ucsp/CS3P1-Pthreads/introduction/linked_list.c || cmake_object_order_depends_target_CS3P1_Pthreads
-  DEP_FILE = CMakeFiles/CS3P1_Pthreads.dir/introduction/linked_list.c.o.d
+build CMakeFiles/CS3P1_Pthreads.dir/linked_list/headers/my_rand.c.o: C_COMPILER__CS3P1_Pthreads_unscanned_Debug /home/cwsg/Ucsp/CS3P1-Pthreads/linked_list/headers/my_rand.c || cmake_object_order_depends_target_CS3P1_Pthreads
+  DEP_FILE = CMakeFiles/CS3P1_Pthreads.dir/linked_list/headers/my_rand.c.o.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always -g -Wall
-  INCLUDES = -I/home/cwsg/Ucsp/CS3P1-Pthreads/introduction/my_rand.h -I/home/cwsg/Ucsp/CS3P1-Pthreads/introduction/timer.h
+  INCLUDES = -I/home/cwsg/Ucsp/CS3P1-Pthreads/linked_list/headers/my_rand.h -I/home/cwsg/Ucsp/CS3P1-Pthreads/linked_list/headers/timer.h
   OBJECT_DIR = CMakeFiles/CS3P1_Pthreads.dir
-  OBJECT_FILE_DIR = CMakeFiles/CS3P1_Pthreads.dir/introduction
-
-build CMakeFiles/CS3P1_Pthreads.dir/introduction/pth_ll_mult_mut.c.o: C_COMPILER__CS3P1_Pthreads_unscanned_Debug /home/cwsg/Ucsp/CS3P1-Pthreads/introduction/pth_ll_mult_mut.c || cmake_object_order_depends_target_CS3P1_Pthreads
-  DEP_FILE = CMakeFiles/CS3P1_Pthreads.dir/introduction/pth_ll_mult_mut.c.o.d
-  FLAGS = -g -std=gnu2x -fdiagnostics-color=always -g -Wall
-  INCLUDES = -I/home/cwsg/Ucsp/CS3P1-Pthreads/introduction/my_rand.h -I/home/cwsg/Ucsp/CS3P1-Pthreads/introduction/timer.h
-  OBJECT_DIR = CMakeFiles/CS3P1_Pthreads.dir
-  OBJECT_FILE_DIR = CMakeFiles/CS3P1_Pthreads.dir/introduction
-
-build CMakeFiles/CS3P1_Pthreads.dir/introduction/pth_ll_one_mut.c.o: C_COMPILER__CS3P1_Pthreads_unscanned_Debug /home/cwsg/Ucsp/CS3P1-Pthreads/introduction/pth_ll_one_mut.c || cmake_object_order_depends_target_CS3P1_Pthreads
-  DEP_FILE = CMakeFiles/CS3P1_Pthreads.dir/introduction/pth_ll_one_mut.c.o.d
-  FLAGS = -g -std=gnu2x -fdiagnostics-color=always -g -Wall
-  INCLUDES = -I/home/cwsg/Ucsp/CS3P1-Pthreads/introduction/my_rand.h -I/home/cwsg/Ucsp/CS3P1-Pthreads/introduction/timer.h
-  OBJECT_DIR = CMakeFiles/CS3P1_Pthreads.dir
-  OBJECT_FILE_DIR = CMakeFiles/CS3P1_Pthreads.dir/introduction
-
-build CMakeFiles/CS3P1_Pthreads.dir/introduction/pth_ll_rwl.c.o: C_COMPILER__CS3P1_Pthreads_unscanned_Debug /home/cwsg/Ucsp/CS3P1-Pthreads/introduction/pth_ll_rwl.c || cmake_object_order_depends_target_CS3P1_Pthreads
-  DEP_FILE = CMakeFiles/CS3P1_Pthreads.dir/introduction/pth_ll_rwl.c.o.d
-  FLAGS = -g -std=gnu2x -fdiagnostics-color=always -g -Wall
-  INCLUDES = -I/home/cwsg/Ucsp/CS3P1-Pthreads/introduction/my_rand.h -I/home/cwsg/Ucsp/CS3P1-Pthreads/introduction/timer.h
-  OBJECT_DIR = CMakeFiles/CS3P1_Pthreads.dir
-  OBJECT_FILE_DIR = CMakeFiles/CS3P1_Pthreads.dir/introduction
-
-build CMakeFiles/CS3P1_Pthreads.dir/introduction/my_rand.c.o: C_COMPILER__CS3P1_Pthreads_unscanned_Debug /home/cwsg/Ucsp/CS3P1-Pthreads/introduction/my_rand.c || cmake_object_order_depends_target_CS3P1_Pthreads
-  DEP_FILE = CMakeFiles/CS3P1_Pthreads.dir/introduction/my_rand.c.o.d
-  FLAGS = -g -std=gnu2x -fdiagnostics-color=always -g -Wall
-  INCLUDES = -I/home/cwsg/Ucsp/CS3P1-Pthreads/introduction/my_rand.h -I/home/cwsg/Ucsp/CS3P1-Pthreads/introduction/timer.h
-  OBJECT_DIR = CMakeFiles/CS3P1_Pthreads.dir
-  OBJECT_FILE_DIR = CMakeFiles/CS3P1_Pthreads.dir/introduction
+  OBJECT_FILE_DIR = CMakeFiles/CS3P1_Pthreads.dir/linked_list/headers
 
 build CMakeFiles/CS3P1_Pthreads.dir/odd_even/odd_even.c.o: C_COMPILER__CS3P1_Pthreads_unscanned_Debug /home/cwsg/Ucsp/CS3P1-Pthreads/odd_even/odd_even.c || cmake_object_order_depends_target_CS3P1_Pthreads
   DEP_FILE = CMakeFiles/CS3P1_Pthreads.dir/odd_even/odd_even.c.o.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always -g -Wall
-  INCLUDES = -I/home/cwsg/Ucsp/CS3P1-Pthreads/introduction/my_rand.h -I/home/cwsg/Ucsp/CS3P1-Pthreads/introduction/timer.h
+  INCLUDES = -I/home/cwsg/Ucsp/CS3P1-Pthreads/linked_list/headers/my_rand.h -I/home/cwsg/Ucsp/CS3P1-Pthreads/linked_list/headers/timer.h
   OBJECT_DIR = CMakeFiles/CS3P1_Pthreads.dir
   OBJECT_FILE_DIR = CMakeFiles/CS3P1_Pthreads.dir/odd_even
 
 build CMakeFiles/CS3P1_Pthreads.dir/odd_even/omp_odd_even1.c.o: C_COMPILER__CS3P1_Pthreads_unscanned_Debug /home/cwsg/Ucsp/CS3P1-Pthreads/odd_even/omp_odd_even1.c || cmake_object_order_depends_target_CS3P1_Pthreads
   DEP_FILE = CMakeFiles/CS3P1_Pthreads.dir/odd_even/omp_odd_even1.c.o.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always -g -Wall
-  INCLUDES = -I/home/cwsg/Ucsp/CS3P1-Pthreads/introduction/my_rand.h -I/home/cwsg/Ucsp/CS3P1-Pthreads/introduction/timer.h
+  INCLUDES = -I/home/cwsg/Ucsp/CS3P1-Pthreads/linked_list/headers/my_rand.h -I/home/cwsg/Ucsp/CS3P1-Pthreads/linked_list/headers/timer.h
   OBJECT_DIR = CMakeFiles/CS3P1_Pthreads.dir
   OBJECT_FILE_DIR = CMakeFiles/CS3P1_Pthreads.dir/odd_even
 
 build CMakeFiles/CS3P1_Pthreads.dir/odd_even/omp_odd_even2.c.o: C_COMPILER__CS3P1_Pthreads_unscanned_Debug /home/cwsg/Ucsp/CS3P1-Pthreads/odd_even/omp_odd_even2.c || cmake_object_order_depends_target_CS3P1_Pthreads
   DEP_FILE = CMakeFiles/CS3P1_Pthreads.dir/odd_even/omp_odd_even2.c.o.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always -g -Wall
-  INCLUDES = -I/home/cwsg/Ucsp/CS3P1-Pthreads/introduction/my_rand.h -I/home/cwsg/Ucsp/CS3P1-Pthreads/introduction/timer.h
+  INCLUDES = -I/home/cwsg/Ucsp/CS3P1-Pthreads/linked_list/headers/my_rand.h -I/home/cwsg/Ucsp/CS3P1-Pthreads/linked_list/headers/timer.h
   OBJECT_DIR = CMakeFiles/CS3P1_Pthreads.dir
   OBJECT_FILE_DIR = CMakeFiles/CS3P1_Pthreads.dir/odd_even
 
@@ -141,7 +113,7 @@ build CMakeFiles/CS3P1_Pthreads.dir/odd_even/omp_odd_even2.c.o: C_COMPILER__CS3P
 #############################################
 # Link the executable CS3P1_Pthreads
 
-build CS3P1_Pthreads: C_EXECUTABLE_LINKER__CS3P1_Pthreads_Debug CMakeFiles/CS3P1_Pthreads.dir/linked_list/pth_hello_world.c.o CMakeFiles/CS3P1_Pthreads.dir/linked_list/pth_busy_waiting.c.o CMakeFiles/CS3P1_Pthreads.dir/linked_list/pth_mutex.c.o CMakeFiles/CS3P1_Pthreads.dir/linked_list/pth_semaphore.c.o CMakeFiles/CS3P1_Pthreads.dir/introduction/linked_list.c.o CMakeFiles/CS3P1_Pthreads.dir/introduction/pth_ll_mult_mut.c.o CMakeFiles/CS3P1_Pthreads.dir/introduction/pth_ll_one_mut.c.o CMakeFiles/CS3P1_Pthreads.dir/introduction/pth_ll_rwl.c.o CMakeFiles/CS3P1_Pthreads.dir/introduction/my_rand.c.o CMakeFiles/CS3P1_Pthreads.dir/odd_even/odd_even.c.o CMakeFiles/CS3P1_Pthreads.dir/odd_even/omp_odd_even1.c.o CMakeFiles/CS3P1_Pthreads.dir/odd_even/omp_odd_even2.c.o
+build CS3P1_Pthreads: C_EXECUTABLE_LINKER__CS3P1_Pthreads_Debug CMakeFiles/CS3P1_Pthreads.dir/linked_list/linked_list.c.o CMakeFiles/CS3P1_Pthreads.dir/linked_list/pth_ll_mult_mut.c.o CMakeFiles/CS3P1_Pthreads.dir/linked_list/pth_ll_one_mut.c.o CMakeFiles/CS3P1_Pthreads.dir/linked_list/pth_ll_rwl.c.o CMakeFiles/CS3P1_Pthreads.dir/linked_list/headers/my_rand.c.o CMakeFiles/CS3P1_Pthreads.dir/odd_even/odd_even.c.o CMakeFiles/CS3P1_Pthreads.dir/odd_even/omp_odd_even1.c.o CMakeFiles/CS3P1_Pthreads.dir/odd_even/omp_odd_even2.c.o
   FLAGS = -g
   LINK_LIBRARIES = -lpthread
   OBJECT_DIR = CMakeFiles/CS3P1_Pthreads.dir

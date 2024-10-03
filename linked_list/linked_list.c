@@ -9,27 +9,22 @@ struct list_node_s {
 int  insert(int value, struct list_node_s** head_p);
 void print(const struct list_node_s* head_p);
 int  find(int value, struct list_node_s* head_p);
-int  delete_(int value, struct list_node_s** head_p);
+int  remove(int value, struct list_node_s** head_p);
 void free_list(struct list_node_s** head_p);
-int  is_empty(struct list_node_s* head_p);
+int  is_empty(const struct list_node_s* head_p);
+char get_command(void);
+int  get_value(void);
 
-char Get_command(void);
-int  Get_value(void);
-
-/*-----------------------------------------------------------------*/
-int main(void)
-{
-   char command;
+int main(void) {
    int  value;
-   struct list_node_s* head_p = NULL;  /* start with empty list */
-
-   command = Get_command();
+   struct list_node_s* head_p = NULL;
+   char command = get_command();
    while (command != 'q' && command != 'Q') {
       switch (command) {
       case 'i':
       case 'I':
-         value = Get_value();
-         insert(value, &head_p);  /* Ignore return value */
+         value = get_value();
+         insert(value, &head_p);
          break;
       case 'p':
       case 'P':
@@ -37,22 +32,21 @@ int main(void)
          break;
       case 'm':
       case 'M':
-         value = Get_value();
-         find(value, head_p);   /* Ignore return value */
+         value = get_value();
+         find(value, head_p);
          break;
       case 'd':
       case 'D':
-         value = Get_value();
-         delete_(value, &head_p);  /* Ignore return value */
+         value = get_value();
+         remove(value, &head_p);
          break;
       default:
          printf("There is no %c command\n", command);
          printf("Please try again\n");
       }
-      command = Get_command();
+      command = get_command();
    }
    free_list(&head_p);
-
    return 0;
 }
 
@@ -98,28 +92,19 @@ int find(const int value, struct list_node_s* head_p) {
    return 1;
 }
 
-int delete_(int value, struct list_node_s** head_pp) {
+int remove(int value, struct list_node_s** head_pp) {
    struct list_node_s* curr_p = *head_pp;
    struct list_node_s* pred_p = NULL;
-
-   /* Find value */
    while (curr_p != NULL && curr_p->data < value) {
       pred_p = curr_p;
       curr_p = curr_p->next;
    }
-   
    if (curr_p != NULL && curr_p->data == value) {
-      if (pred_p == NULL) { /* first element in list */
+      if (pred_p == NULL) {
          *head_pp = curr_p->next;
-#        ifdef DEBUG
-         printf("Freeing %d\n", value);
-#        endif
          free(curr_p);
       } else { 
          pred_p->next = curr_p->next;
-#        ifdef DEBUG
-         printf("Freeing %d\n", value);
-#        endif
          free(curr_p);
       }
       return 1;
@@ -131,38 +116,30 @@ int delete_(int value, struct list_node_s** head_pp) {
 void free_list(struct list_node_s** head_pp) {
    struct list_node_s* curr_p;
    struct list_node_s* succ_p;
-
    if (is_empty(*head_pp)) return;
-   curr_p = *head_pp; 
+   curr_p = *head_pp;
    succ_p = curr_p->next;
    while (succ_p != NULL) {
-#     ifdef DEBUG
-      printf("Freeing %d\n", curr_p->data);
-#     endif
       free(curr_p);
       curr_p = succ_p;
       succ_p = curr_p->next;
    }
-#  ifdef DEBUG
-   printf("Freeing %d\n", curr_p->data);
-#  endif
    free(curr_p);
    *head_pp = NULL;
 }
 
-
-int  is_empty(struct list_node_s* head_p) {
+int  is_empty(const struct list_node_s* head_p) {
    return head_p == NULL ? 1 : 0;
 }
 
-char Get_command(void) {
+char get_command(void) {
    char c;
    printf("Please enter a command:  ");
    scanf(" %c", &c);
    return c;
 }
 
-int  Get_value(void) {
+int  get_value(void) {
    int val;
    printf("Please enter a value:  ");
    scanf("%d", &val);
